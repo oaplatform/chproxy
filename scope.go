@@ -306,8 +306,8 @@ var allowedParams = []string{
 	// what to do if the volume of the result exceeds one of the limits
 	"result_overflow_mode",
 	"max_query_size",
-	"max_ast_elements"
-	"max_expanded_ast_elements"
+	"max_ast_elements",
+	"max_expanded_ast_elements",
 }
 
 // This regexp must match params needed to describe a way to use external data
